@@ -6,8 +6,8 @@ title: my first git blog posting
 
 ---
 
-This is my First posting
+This is my first posting
 
-```
+
 test
-```
+
