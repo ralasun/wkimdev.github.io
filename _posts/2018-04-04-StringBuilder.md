@@ -1,4 +1,4 @@
-- 입출력문제는 기본적이라 생각하고 대충넘어가려 했었나보다;;.. 알고리즘에서는 처리속도를 줄이는게 중요한데 이번기회에 확실히 알고 넘어가자.
+#### 입출력문제는 기본적이라 생각하고 대충넘어가려 했었나보다;;.. 알고리즘에서는 처리속도를 줄이는게 중요한데 이번기회에 확실히 알고 넘어가자.
 
 ### 자바의 입력 Class 
 - Scanner, BufferedReader, StringTokenizer
@@ -6,6 +6,7 @@
 - BufferedReader는 문자열에 최적화 되어 있음.
 
 - Scanner를 사용했을시 입력 형태.
+
 ```
 Scanner를 사용했을시 입력 형태.
 Scanner sc = new Scanner(System.in);
@@ -17,7 +18,7 @@ String s = sc.nextLine(); // String
 
 ```
 
-- BufferedReader를 사용할때
+#### BufferedReader를 사용할때
 - 아래와 같이 한줄로 입력시, sc.nextInt()를 12번 호출하는건 비효율적이다. 입력갯수가 큰 알고리즘 문제의 경우 시간제한에 걸리게 된다.
 
 ```
@@ -27,6 +28,7 @@ for(int i=0;i<12;i++) {
 sc.nextInt();
 }
 ```
+
 - 그래서 아래와 같이 사용한다.
 - 문자열로 받고 split메소드를 이용해서 공백을 기준으로 잘라서 활용.
 - integer.parseInt() 형변환을 통해 사용.
