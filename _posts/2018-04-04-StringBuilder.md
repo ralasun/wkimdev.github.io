@@ -7,14 +7,15 @@
 
 - Scanner를 사용했을시 입력 형태.
 
-```Scanner를 사용했을시 입력 형태.
+{% highlight ruby linenos %}
+Scanner를 사용했을시 입력 형태.
 Scanner sc = new Scanner(System.in);
 
 int n = sc.nextInt(); // int
 long l = sc.nextLong(); // int
 String s = sc.next(); // String
 String s = sc.nextLine(); // String
-```
+{% endhighlight %}
 
 #### BufferedReader를 사용할때
 - 아래와 같이 한줄로 입력시, sc.nextInt()를 12번 호출하는건 비효율적이다. 입력갯수가 큰 알고리즘 문제의 경우 시간제한에 걸리게 된다.
