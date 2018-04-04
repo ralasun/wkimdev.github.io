@@ -15,7 +15,6 @@ int n = sc.nextInt(); // int
 long l = sc.nextLong(); // int
 String s = sc.next(); // String
 String s = sc.nextLine(); // String
-
 ```
 
 #### BufferedReader를 사용할때
