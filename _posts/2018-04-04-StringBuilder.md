@@ -7,13 +7,14 @@
 
 - Scanner를 사용했을시 입력 형태.
 
-`Scanner sc = new Scanner(System.in);`
-`
+~~~python
+Scanner sc = new Scanner(System.in);
+
 int n = sc.nextInt(); // int
 long l = sc.nextLong(); // int
 String s = sc.next(); // String
 String s = sc.nextLine(); // String
-`
+~~~
 
 
 #### BufferedReader를 사용할때
