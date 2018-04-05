@@ -1,3 +1,10 @@
+---
+layout: post
+category: Java
+title: StringBuilder
+tags: Java
+---
+
 #### 입출력문제는 기본적이라 생각하고 대충넘어가려 했었나보다;;.. 알고리즘에서는 처리속도를 줄이는게 중요한데 이번기회에 확실히 알고 넘어가자.
 
 ### 자바의 입력 Class 
