@@ -6,33 +6,32 @@
 - BufferedReader는 문자열에 최적화 되어 있음.
 
 - Scanner를 사용했을시 입력 형태.
-
-```java
-Scanner를 사용했을시 입력 형태.
+{% highlight java linenos %}
 Scanner sc = new Scanner(System.in);
 
 int n = sc.nextInt(); // int
 long l = sc.nextLong(); // int
 String s = sc.next(); // String
 String s = sc.nextLine(); // String
-```
+{% endhighlight %}
 
 #### BufferedReader를 사용할때
 - 아래와 같이 한줄로 입력시, sc.nextInt()를 12번 호출하는건 비효율적이다. 입력갯수가 큰 알고리즘 문제의 경우 시간제한에 걸리게 된다.
 
 
+{% highlight java linenos %}
   1 2 3 4 5 6 7 8 9 10 11 12 // 한줄 입력
 
   for(int i=0;i<12;i++) {
   sc.nextInt();
   }
-
+{% endhighlight %}
 
 - 그래서 아래와 같이 사용한다.
 - 문자열로 받고 split메소드를 이용해서 공백을 기준으로 잘라서 활용.
 - integer.parseInt() 형변환을 통해 사용.
 
-```
+{% highlight java linenos %}
 1 2 3 4 5 6 7 8 9 10 11 12 // 한줄 입력
 
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -42,8 +41,7 @@ String[] s = br.readLine().split(" ");
 // s[1] = "2";
 // s[2] = "3";
 // .....
-
-```
+{% endhighlight %}
 
 #### StringTokenizer 사용목적
 - BufferedReader는 잘라서 배열과 같이 인덱스를 사용하여 접근하여 사용.
