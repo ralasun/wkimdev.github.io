@@ -21,7 +21,7 @@ String s = sc.nextLine(); // String
 - 아래와 같이 한줄로 입력시, sc.nextInt()를 12번 호출하는건 비효율적이다. 입력갯수가 큰 알고리즘 문제의 경우 시간제한에 걸리게 된다.
 
 
-{% highlight java linenos %}
+{% highlight java %}
   1 2 3 4 5 6 7 8 9 10 11 12 // 한줄 입력
 
   for(int i=0;i<12;i++) {
