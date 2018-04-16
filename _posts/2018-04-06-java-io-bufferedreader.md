@@ -4,7 +4,7 @@ title:  "Java 입출력, BufferedReader, StringTokenizer"
 date : 2018-04-06 12:46:32 +0900
 description: 입출력문제는 기본적이라 생각하고 대충넘어가려 했었나보다;;.. 알고리즘에서는 처리속도를 줄이는게 중요한데 이번기회에 확실히 알고 넘어가자.
 categories: Java
-tags: Java
+tags: Java BufferedReader StringTokenizer
 ---
 
 # 자바의 입력 Class 
@@ -72,6 +72,23 @@ st.nextToken() // EFFF
 st.nextToken() // GH
 {% endhighlight %}
 
+## StringTokenizer 사용법
+- 자바에서는 String을 token단위로 끊어주는 StringTokenizer 클래스를 제공한다.
+- 예를들어 "this is my string" 이라는 스트링을 this, is, my, string 4개의 스트링으로 끊어주는 기능을 제공한다.
+- 그리고 공백말고도 다른 구획문자(delimiter)를 사용할수도 있다. 예를들어 this%is%my%string을 delimiter에 %를 넣어 StringTokenizer를 사용하면 마찬가지로 this, is, my, string으로 읽어준다.
+- this$%^is$my%string^일때 구획문자를 "$%^"라고 설정해주면 this, is, my, string 으로 끊어준다.
+
+{% highlight js %}
+    String str = "this%%is%%my%%string"; 
+    StringTokenizer st = new StringTokenizer(str,"%%"); 
+
+    while(st.hasMoreTokens()) { 
+        System.out.println(st.nextToken()); 
+    }
+{% endhighlight %}
+
+
+
 ## 같은 문제를 풀었을 때, Scanner와 BufferedReader를 사용했을 때의 처리속도차이
 - BufferedReader를 사용했을시, 92MS로 처리속도 단축.
  ![이미지](/post_assets/2018-04-08/algoInput.jpg)
@@ -84,3 +101,11 @@ st.nextToken() // GH
 
 #### 출처
 - [http://mygumi.tistory.com/78] 
+- [J. deo의 그알정보](http://arer.tistory.com/48)
+- [Scanner 와 BufferedReader 의 속도 및 메모리 차이](https://m.blog.naver.com/PostView.nhn?blogId=mycho&logNo=220845741136&categoryNo=0&proxyReferer=&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
+- [[JAVA] 문자 Stream : BufferedReader / BufferedWriter (파일 복사 예제)](http://hyeonstorage.tistory.com/249)
+- [[JAVA 자바] StringTokenizer](http://arer.tistory.com/48)
+- [자바로 eof 처리 어떻게 해야하는건가요?ㅠㅠ](https://www.acmicpc.net/board/view/6682)
+- [[JAVA] Scanner 클래스의 next()와 nextLine() 메서드의 차이점](http://sexy.pe.kr/tc/496)
+- [Java EOF 처리](http://mygumi.tistory.com/236)
+- [자바 입력 클래스 활용하기 :: 마이구미](http://mygumi.tistory.com/78)
