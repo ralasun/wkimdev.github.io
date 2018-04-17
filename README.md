@@ -1,9 +1,7 @@
 # Codinfox-Lanyon
-
 This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
 
 **If you like this project, PLEASE give it a star.**
-
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
@@ -17,7 +15,5 @@ The theme supports:
 
 
 ## License
-
 Open sourced under the [MIT license](LICENSE.md).
 
-<3
