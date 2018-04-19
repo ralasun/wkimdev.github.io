@@ -3,8 +3,8 @@ layout: post
 title:  "좋아요기능 히스토리 처리"
 date : 2018-03-13 12:46:32 +0900
 description: 
-categories: Node AWS-S3
-tags: Node AWS-S3
+categories: Node 
+tags: Node like-history
 ---
 
 # Amazon S3란??
@@ -116,7 +116,6 @@ form.parse(req);
 - Key : S3의 경로 및 파일 이름을 지정합니다.
 - ACL : 파일 권한에 대한 설정입니다.
 - Body : 업로드할 파일의 경로를 지정합니다.
-
 
 
 #### 출처
