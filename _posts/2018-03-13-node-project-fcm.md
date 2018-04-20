@@ -29,9 +29,9 @@ Admin SDK 또는 HTTP 및 XMPP API를 통해 메시지를 보낼 수 있습니�
 
 #### 작업절차
 1. firebase에 프로젝트를 설정한다. 
-2. device token값을 받는다.
-3. 서버key값을 받고 프로젝트에 설정한다.
-4. 코드에 message를 설정한다.
+2. 서버key값을 받고 프로젝트에 설정한다.
+3. device token값을 받는다.
+4. 코드에 message를 설정한다(notification).
 5. 전송 test 및 확인.
 
 #### 필수 패키지 설치
