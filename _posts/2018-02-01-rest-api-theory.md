@@ -32,9 +32,9 @@ cmdLoadByAjax : function (url, params, method) {
 - REST는 Representational State Transfer라는 용어의 약자로 2000년도에 로이 필딩 (Roy Fielding)의 박사학위 논문에서 최초로 소개. 로이 필딩은 HTTP의 주요 저자 중 한 사람으로 <mark>웹의 장점을 최대한 활용할 수 있는 아키텍처로써 REST를 발표</mark>
 
 ## 2. REST 구성
-> 자원(Resource) - URI
-> 행위(Verb) - HTTP METHOD
-> 표현(Representations)
+> 자원(Resource) - URI  
+> 행위(Verb) - HTTP METHOD  
+> 표현(Representations)  
 
 ## 3. REST 의 특징
 #### 1) Uniform (유니폼 인터페이스)
@@ -58,7 +58,7 @@ REST 서버는 다중 계층으로 구성될 수 있으며 보안, 로드 밸런
 
 ## 4. REST API 디자인 가이드(중요)
 - REST API 설계 시 가장 중요한 항목
-> 1. URL는 정보의 자원을 표시
+> 1. **URI**는 정보의 자원을 표시
 > 2. 자원에 대한 행위는 **HTTP Method(GET, POST, PUT, DELETE)**로 표현한다.
 
 ## 4-1. REST API 중심 규칙
