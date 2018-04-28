@@ -7,6 +7,14 @@ tags: Node REST-API URI
 ---
 
 # Rest API란?
+- REST : Representational State Transfer
+> 표면적인 실체는 '스타일'또는 '패턴'이라고 할 수 있다. 많은 정보, 리소스들을 어떻게 전달할 것인가?) 기존방식보다 데이터를 주고 받을때 더 낫게 하도록...
+> 일관성 있는 웹서비스 인터페이스 설계를 위해 사용.
+- 주로 비동기로 데이터를 주고받을때 API를 주고 받을 때 정해진 규칙하에 전달하는 것.
+- 웹을 근간으로 하는 http protocol 기반이다.
+- 리소스(자원)은 URI(Uniform Resource Identifiers)로 표현하며 말 그대로 '고유'해야 한다.
+- URI는 단순하고 직관적인 구조이어야 한다.
+- xml/json을 활용해서 데이터를 전송한다. (주로json- 보다 직관적)
 - REST 개념은 <mark>서버와 클라가 완전히 분리된 개념이다.</mark>(일반적으로 웹개발을 할때 서버언어와 클라이언트 언어랑 같이 사용해서 이부분이 헤깔렸다.)
 - REST하게 클라이언트랑 서버간에 데이터를 주고 받는 방식
 - 프로젝트시 내가 한 작업은 철저히 서버단 작업이다. node로 개발하면서 클라이언트에 response해주는 인터페이스를 rest라고 보면 된다.
@@ -62,7 +70,7 @@ REST 서버는 다중 계층으로 구성될 수 있으며 보안, 로드 밸런
 > 2. 자원에 대한 행위는 **HTTP Method(GET, POST, PUT, DELETE)**로 표현한다.
 
 ## 4-1. REST API 중심 규칙
-1) URI는 정보의 자원을 표현해야 한다. (리소스명은 동사보다는 명사를 사용)  
+1) URI는 정보의 자원을 표현해야 한다. (리소스명은 동사보다는 **명사**를 사용)  
 `GET /members/delete/1` (x)
 - 위와 같은 방식은 REST를 제대로 적용하지 않은 URI입니다. URI는 자원을 표현하는데 중점을 두어야 합니다. delete와 같은 행위에 대한 표현이 들어가서는 안된다.    
 2) 자원에 대한 행위는 HTTP Method(GET, POST, PUT, DELETE 등)로 표현  
@@ -93,6 +101,23 @@ POST /members/2       (o)
 | DELETE | DELETE를 통해 리소스를 삭제 |
 
 
+## API Design
+- **복수명사를 사용(/movies)**
+- 필요하면 URL에 하위 자원을 표현. (/movies/23)
+- 필터조건을 허용할 수 있음 (/movies?state=active)
+
+- ex) 
+
+| URL | Methods | 설명 |
+| :---: | :---: | :---: |
+| /movies | GET | 모든 영화리스트 가져오기 |
+| /movies | POST | 영화 추가 |
+| /movies/:title | GET | title 해당 영화 가져오기 |
+| /movies/:title | DELETE | title 해당 영화 삭제 |
+| /movies/:title | PUT | title 해당 영화 업데이트 |
+| /movies?min=9 | GET | 상영중인 영화리스트 |
+
+
 ## URI, URL의 차이?!
 > - **URL : Uniform Resource Locator**, 정형화 된 리소스 위치표시  
 > - **URI : Uniform Resource Identifier**  
@@ -112,3 +137,4 @@ http://service.com/tv/turn/on
 #### 출처
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - [URL과 URI의 의미와 차이점 (Difference between URL & URI)](https://blog.lael.be/post/61)
+- 인프런 강의
