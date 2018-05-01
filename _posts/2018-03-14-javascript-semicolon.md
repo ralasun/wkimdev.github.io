@@ -8,6 +8,25 @@ tags: Javascript
 ---
 
 # Javascript 세미콜론(;) 표기법
+## 함수 선언문과 함수 표현식에서의 세미콜론(;)
+- 일반적으로 코드를 작성할 때 **함수 표현식에서는 ;(세미콜론)을 붙히고 함수 선언문으로 작성할 시에는 ;(세미콜론)을 붙이지 않는다.** 
+- 이것은 하나의 관습이고 코드 작성시 권장되는 방식
+- 자바스크립트에서는 세미콜론 사용을 강제하지는 않는다. 그 이유는 자바스크립트 인터프리터가 자동으로 세미콜론을 삽입시켜 주기 때문.
+- 하지만 세미콜론에 신경을 쓰지 않는다면 소스 압축 배포를 하거나 디버깅을 할 시에 심각한 상황에 직면할 수 도 있다.
+
+{% highlight js %}
+//함수표현식
+var apple = function(){
+ return 300;
+};
+
+//함수 선언문
+function apple(){
+ return 300;
+}
+{% endhighlight %}
+
+
 ## 필수사항: 두개 명령문이 같은 줄에 있을때
 - 세미콜론은 같은 줄에 둘 이상의 명령문(statements)이있을 때만 필수입니다.
 {% highlight js %}
@@ -68,3 +87,4 @@ alert ("hi");
 
 #### 출처
 - [Javascript 세미콜론(;) 가이드](http://webframeworks.kr/tutorials/translate/javascript-semicolon/)
+- [함수 선언문과 함수 표현식에서의 세미콜론(;)](http://webclub.tistory.com/16)
