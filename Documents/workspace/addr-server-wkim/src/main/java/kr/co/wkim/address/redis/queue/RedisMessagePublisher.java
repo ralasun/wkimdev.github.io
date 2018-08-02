@@ -20,7 +20,7 @@ public class RedisMessagePublisher implements MessagePublisher {
 	@Override
 	public void publish(final String message) {
 		//LOG.info();
-		
+		 
 		//config에서 설정한 convertAandSend 메서드를 사용해야 한다.
 		//사용해서 messge를 퍼블리시? 한다고 예상...
 	}
