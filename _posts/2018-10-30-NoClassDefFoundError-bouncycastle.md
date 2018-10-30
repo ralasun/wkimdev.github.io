@@ -11,7 +11,7 @@ tags: NoClassDefFoundError web3j
 - web3j maven depengency 추가 이후 config class를 만들어 제대로 연결이 되었는지 테트를 해보는데 아래의 에러가 발생하였다..
 - `java.lang.NoClassDefFoundError: org/bouncycastle/crypto/Digest`
 
-#### 시도해본방법들..
+## 시도해본방법들..
 - maven clean, install, update,,
 - depengency 수정
 - project 다시 만들기..
