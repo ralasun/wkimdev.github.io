@@ -2,8 +2,8 @@
 layout: post
 title:  "Node.js, Express 개념, 장점"
 date : 2018-02-01 12:46:32 +0900
-categories: Node Express
-tags: Node Express
+categories: Nodejs Express
+tags: Nodejs Express
 ---
 
 # Node.js 란, node js 를 사용함으로서의 장점.
