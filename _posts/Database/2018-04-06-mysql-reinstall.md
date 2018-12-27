@@ -2,8 +2,8 @@
 layout: post
 title:  "MySQL 재설치"
 date : 2018-04-06 12:46:32 +0900
-categories: MySQL
-tags: MySQL
+categories: Database
+tags: MySQL Database
 ---
 
 # 인강을 따라가던중 MYSQL 커넥션에 에러가 생겼다. 

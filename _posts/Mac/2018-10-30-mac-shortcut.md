@@ -2,8 +2,8 @@
 layout: post
 title:  "자주 헤깔리는 mac 단축키"
 date : 2018-10-30 12:46:32 +0900
-categories: mac shortcut
-tags: mac shortcut
+categories: Mac
+tags: Mac shortcut
 ---
 
 ## 자주 헤깔리는 mac 단축키

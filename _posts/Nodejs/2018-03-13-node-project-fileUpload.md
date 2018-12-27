@@ -3,8 +3,8 @@ layout: post
 title:  "Node AWS S3 스토리지 이용하여 파일업로드 구현"
 date : 2018-03-13 12:46:32 +0900
 description: 
-categories: Node AWS-S3
-tags: Node AWS-S3
+categories: Nodejs
+tags: Nodejs AWS-S3
 ---
 
 # Amazon S3란??

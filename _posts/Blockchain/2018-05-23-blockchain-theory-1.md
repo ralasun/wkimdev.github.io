@@ -3,8 +3,8 @@ layout: post
 title:  blockchain
 date : 2018-05-23 12:46:32 +0900
 description: 
-categories: blockchain
-tags: blockchain
+categories: Blockchain
+tags: Blockchain
 ---
 
 ## 가상화폐 채굴(CPU, GPU, ASIC)

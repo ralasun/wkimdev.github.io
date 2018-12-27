@@ -3,8 +3,8 @@ layout: post
 title:  "redis와 pub/sub"
 date : 2018-05-14 12:46:32 +0900
 description: 
-categories: 
-tags: 
+categories: 웹서비스
+tags: Redis
 ---
 
 ### redis

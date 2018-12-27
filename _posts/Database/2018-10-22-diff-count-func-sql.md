@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "181022_diff_between_count(*)_count(column_name)"
-categories: SQL
+categories: Database
 tags: count db SQL
 ---
 

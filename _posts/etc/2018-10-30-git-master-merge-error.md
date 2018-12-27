@@ -2,7 +2,7 @@
 layout: post
 title:  "error when git master merge/fatal: Could not read from remote repository"
 date : 2018-10-30 12:46:32 +0900
-categories: git merge
+categories: etc
 tags: git merge
 ---
 

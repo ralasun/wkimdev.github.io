@@ -3,8 +3,8 @@ layout: post
 title:  "Passport.js 타사 로그인인증 구현(facebook)"
 date : 2018-03-13 12:46:32 +0900
 description: 
-categories: Node passport.js
-tags: Node passport.js
+categories: Nodejs
+tags: Nodejs passport.js
 ---
 
 # Passport.js를 통해 타사 로그인 인증 구현(facebook).

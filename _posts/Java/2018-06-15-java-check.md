@@ -3,7 +3,7 @@ layout: post
 title:  ""
 date : 2018-06-15 12:46:32 +0900
 description: 
-categories: Java spring
+categories: Java
 tags: Java spring 
 ---
 # lombok

@@ -3,7 +3,7 @@ layout: post
 title:  "Spring-Security 환경설정 및 로그인화면 구현 2"
 date : 2018-04-13 12:46:32 +0900
 description: 
-categories: Java spring
+categories: Spring
 tags: Java spring spring-security
 ---
 

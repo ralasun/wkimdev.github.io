@@ -2,8 +2,8 @@
 layout: post
 title:  "java.lang.NoClassDefFoundError: org/bouncycastle/crypto/Digest error"
 date : 2018-10-30 12:46:32 +0900
-categories: NoClassDefFoundError bouncycastle web3j
-tags: NoClassDefFoundError web3j
+categories: Blockchain
+tags: NoClassDefFoundError bouncycastle web3j
 ---
 
 ## NoClassDefFoundError bouncycastle web3j

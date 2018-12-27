@@ -3,8 +3,8 @@ layout: post
 title:  "Node.js firebase를 사용하여 fcm처리"
 date : 2018-03-13 12:46:32 +0900
 description: 
-categories: Node fcm
-tags: Node fcm
+categories: Nodejs
+tags: Nodejs fcm
 ---
 
 ## fcm이란? fcm으로 push알람 구현  

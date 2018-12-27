@@ -3,8 +3,8 @@ layout: post
 title:  "게시글 좋아요 기능 처리"
 date : 2018-03-13 12:46:32 +0900
 description: 
-categories: Node 
-tags: Node 게시글-좋아요-기능-처리
+categories: Nodejs
+tags: Nodejs 게시글-좋아요-기능-처리
 ---
 
 # 게시글 좋아요 기능 처리

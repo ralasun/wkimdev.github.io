@@ -3,7 +3,7 @@ layout: post
 title:  "Node Express 프로젝트 시작하기"
 date : 2018-03-14 12:46:32 +0900
 description: 
-categories: Node Express
+categories: Nodejs
 tags: Node Express
 ---
 

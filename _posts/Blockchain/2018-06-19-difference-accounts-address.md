@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "What is the difference between accounts and addresses?"
-categories: blockchain bitcoin
-tags: blockchain bitcoin
+categories: Blockchain
+tags: Blockchain bitcoin
 ---
 
 ## account, address차이
