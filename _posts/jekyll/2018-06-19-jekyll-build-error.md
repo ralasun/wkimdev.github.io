@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "jekyll Page build failure 에러 해결"
+title:  "jekyll Page build failure:Liquid syntax error 에러 해결"
 date : 2018-06-19 12:46:32 +0900
 categories: jekyll
 tags: jekyll
 ---
 
-## jekyll Page build failure error message
+## jekyll Page build failure error message - Liquid Exception: Liquid syntax error
 - GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
 `Your site is having problems building: Page build failed. For more information, see https://help.github.com/articles/troubleshooting-github-pages-builds/.`
 

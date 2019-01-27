@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "mac ifconfig - mac 네트워크 확인"
-date : 2018-10-30 12:46:32 +0900
-categories: mac ifconfig
-tags: mac ifconfig
+title: "mac ifconfig - mac 네트워크 확인"
+date: 2018-10-30 12:46:32 +0900
+categories: Mac
+tags: Mac ifconfig
 ---
 
 ## mac 네트워크 확인
+
 - `ifconfig`
-- output  
+- output
 
 ```
 ifconfig output in Mac OS X?
@@ -23,6 +24,7 @@ vmnet1 = Virtual Interface
 ```
 
 ## output 들의 의미 확인
+
 - `-listallhardwareports` 명령어로 확인가능
 - You can see the names that are used in System Preferences for some of the devices by running networksetup -listallhardwareports:
 
