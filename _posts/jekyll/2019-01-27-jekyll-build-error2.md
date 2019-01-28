@@ -9,7 +9,7 @@ tags: [jekyll, jekyll-build-error]
 ## 주요 발생 에러메세지
 - Build Warning: Layout 'post' requested in jekyll does not exist.
 - kernel_require.rb:59:in `require': cannot load such file -- bundler (LoadError)
-
+     
 
 ## 환경설정
 - ruby 2.5.3p105 (2018-10-18 revision 65156) [x64-mingw32]
