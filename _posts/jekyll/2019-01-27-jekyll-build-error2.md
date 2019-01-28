@@ -14,7 +14,7 @@ tags: [jekyll, jekyll-build-error]
 ## 환경설정
 - ruby 2.5.3p105 (2018-10-18 revision 65156) [x64-mingw32]
 - Bundler version 2.0.1
-- jekyll 3.8.5 
+- jekyll 3.8.5     
 
 ## jekyll build error 발단 및 해결과정
    
