@@ -45,7 +45,7 @@ tags: Angular
 - AWS서버에 블록체인 노드 구축이 되었다.
 - 각 노드들에 대한 네트워크 구성이 되었고,
 - 담당을 받은 네트워크에 접속하기 위한 pem파일을 받아 해당 서버에 접속하여 작업을 진행하였다.
-- 서버는 `Ubuntu 18.04.2 LTS`
+- 서버는 `Ubuntu 18.04.2 LTS`, `Nginx`
 - AWS에서 ssl설정 처리를 해주고 있었기 때문에 내가 따로 deploy이후에 ssl설정할 부분은 없었다.
 - AWS Elastic load balance 에서 서비스 도메인을 port 80으로 프록시를 해주고 있음.  
   ![이미지](/post_assets/2019-04-01/elb-flow.png)
